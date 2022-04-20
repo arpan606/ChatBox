@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title></title>
+    <link rel="stylesheet" href="/css/master.css">
+  </head>
+  <body class="index">
+    <div class="chatNow_header_bar">
+        <div class="chatnow_heading" >Chat-Now!</div>
+    </div>
+    <div class="chatArea">
+      <div class="chat-box" ></div>
+      <form id="chatting">
+        <input type="text" id="messageinput" name="messageinput" placeholder="Enter message" autocomplete="off" required value="">
+        <button type="submit" name="button"><img class="sendImage"src="3814305.png"></img></button>
+      </form>
+   </div>
+   <div class="footer">
+        <div class="footerSubPart1" >
+        <div class="chatnow" id="room-name"></div>
+        <div class="chatnow" id="user-name"></div>
+        </div>
+        <div class="chatnow" >Made By Arpan ❤️</div>
+   </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.10.1/qs.min.js" integrity="sha512-aTKlYRb1QfU1jlF3k+aS4AqTpnTXci4R79mkdie/bp6Xm51O5O3ESAYhvg6zoicj/PD6VYY0XrYwsWLcvGiKZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="js/client.js"></script>
+</html>

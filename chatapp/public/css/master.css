@@ -1,0 +1,246 @@
+/*
+#chatid{
+
+  --bs-bg-opacity: 1;
+background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+} */
+/* .chat-box
+{
+  margin: auto;
+  margin-top: 50px;
+  width:65%;
+  height:350px;
+  border:5px solid blue;
+  border-radius: 5px;
+  padding: 25px;
+  background-color:#e6eef1;
+  overflow-y: scroll;
+
+} */
+
+ .message
+{
+  color:#000000;
+  padding:2px;
+  width:80%;
+  min-height:40px;
+  border-radius: 2px;
+  margin: auto;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  background: #ffffff;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left:5px;
+  padding-right: 2px;
+  border-radius: 10px;
+
+}
+
+p{
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+
+#messageinput{
+  color:white;
+}
+
+.admin{
+  color:grey;
+}
+
+
+/******************************/
+
+.index{
+  height:100vh;
+  width:100vw;
+  padding: 0;
+  margin:0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background:#d8e9ff;
+}
+
+.chatNow_header_bar{
+  background:#ffffff;
+  position:absolute;
+  top:0;
+  left:0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid #E0E0E0;
+  height:10%;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chatnow_heading{
+ font-size:45px;
+ font-style: normal;
+ font-weight: 500;
+ font-family: 'Poppins';
+ line-height: 20px;
+ color:#07849d;
+}
+
+.formDetails{
+  display: flex;
+  flex-direction: column;
+  width:50%;
+  height:40%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.formDetails input{
+  width:50%;
+  height:15%;
+  border-radius: 50px;
+  text-align: center;
+  border: none;
+  outline:none;
+}
+
+.formDetails button{
+  width:20%;
+  height:15%;
+  border-radius: 50px;
+  text-align: center;
+  background:#07849d;
+  border: none;
+  outline:none;
+}
+
+.footer{
+  background:#ffffff;
+  position:absolute;
+  bottom: 0;
+  left:0;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-top: 1px solid #E0E0E0;
+  height:8%;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+   color:#07849d;
+}
+
+
+.footerSubPart1{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+/**************************************************************************************************/
+
+#chatting{
+  margin:auto;
+  text-align: center;
+  width:80%;
+  height:35px;
+  background:#e6eef1;
+  border-radius: 50px;
+  border:0.5px solid #c5c5c5;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.chatArea{
+  width:35%;
+  height:70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+
+}
+
+.chat-box
+{
+  margin: auto;
+  margin-top: 50px;
+  width:100%;
+  height:80%;
+  background-color:#e6eef1;
+  overflow-y: scroll;
+  border-top: 1px solid #c5c5c5;
+  border-bottom: 1px solid #c5c5c5;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.chat-box::-webkit-scrollbar{
+  display: none;
+}
+
+
+#chatting input{
+    background:#e6eef1;;
+    border:none;
+    outline:none;
+    width:70%;
+    color:#000000;
+}
+
+#chatting button{
+  border-radius: 100%;
+  height:30px;
+  width:30px;
+  border: none;
+}
+
+.sendImage{
+  height:20px;
+  width:20px;
+  border-radius: 100%;
+
+}
+
+/**************************************************************************************************/
+@media all and (max-width:500px)
+{
+  .formDetails{
+    width:70%;
+    height:57%;
+
+  }
+
+  .formDetails input{
+    width:80%;
+    height:40px;
+    border-radius: 50px;
+    text-align: center;
+    border: none;
+    outline:none;
+
+
+  }
+
+  .formDetails button{
+    width:50%;
+    height:35px;
+    border-radius: 50px;
+    text-align: center;
+  }
+}
